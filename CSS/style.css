@@ -58,17 +58,15 @@ main {
     padding: 30px;
     border-radius: 6px;
 }
-
-.avatar-placeholder {
-    width: 150px;
-    height: 150px;
-    border: 2px dashed #aaa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #777;
-    font-size: 14px;
+.avatar-img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
 }
+
+
+
 
 .intro-text h2 {
     margin-bottom: 15px;
@@ -196,4 +194,56 @@ footer {
   margin-top: 15px;
   margin-bottom: 10px;
   color: #2c3e50;
+}
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.resource-card h3 {
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.intro-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+.muted {
+  color: #666;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+.resource-card h3 {
+  margin-bottom: 0.6rem;
+}
+
+.list {
+  margin-top: 0.5rem;
+  margin-left: 1.2rem;
+  line-height: 1.6;
+}
+
+.citation {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #444;
+  border-left: 4px solid rgba(0, 0, 0, 0.12);
+  padding-left: 0.8rem;
 }
